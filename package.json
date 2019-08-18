@@ -1,0 +1,20 @@
+{
+  "name": "node-default-packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/azawakh/node-default-packages",
+  "author": "azawakh <azawakhh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/cli": "^6.6.4",
+    "@vue/cli": "^3.10.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "tern": "^0.24.1",
+    "yarn": "^1.17.3"
+  }
+}
