@@ -13,9 +13,11 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
+    "package-diff": "^0.0.6",
     "prettier": "^1.18.2",
     "tern": "^0.24.1",
     "twsh": "^1.0.2",
+    "vue-language-server": "^0.0.60",
     "yarn": "^1.17.3"
   }
 }
