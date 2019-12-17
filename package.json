@@ -6,19 +6,20 @@
   "author": "azawakh <azawakhh@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@nestjs/cli": "^6.6.4",
-    "@vue/cli": "^3.10.0",
-    "create-nuxt-app": "^2.10.0",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-prettier": "^3.1.0",
     "package-diff": "^0.0.6",
-    "prettier": "^1.18.2",
-    "tern": "^0.24.1",
-    "twsh": "^1.0.2",
     "vue-language-server": "^0.0.60",
-    "yarn": "^1.17.3"
+    "@nestjs/cli": "^6.12.9",
+    "@storybook/cli": "^5.2.8",
+    "@vue/cli": "^4.1.1",
+    "create-nuxt-app": "^2.12.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "tern": "^0.24.2",
+    "twsh": "^1.0.2",
+    "yarn": "^1.21.1"
   }
 }
