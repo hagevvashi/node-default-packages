@@ -5509,7 +5509,7 @@ elegant-spinner@^1.0.1:
   resolved "https://registry.yarnpkg.com/elegant-spinner/-/elegant-spinner-1.0.1.tgz#db043521c95d7e303fd8f345bedc3349cfb0729e"
   integrity sha1-2wQ1IcldfjA/2PNFvtwzSc+wcp4=
 
-element-helper-json@^2.0.2:
+element-helper-json@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/element-helper-json/-/element-helper-json-2.0.6.tgz#cd1c4b14b29d8515c3e86ea36da3a1dc44330934"
   integrity sha512-AzJvyAAYwFvv4zesXVQbB8zNBMJl/6HjDulY2NfxHdOEhsjq1knIoYOI+Ln20OlYX431sxSBO/5ji+aaQr/VoQ==
@@ -13156,10 +13156,15 @@ typescript@^2.5.1:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
   integrity sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==
 
-typescript@^3.3.4000, typescript@^3.4.5:
+typescript@^3.4.5:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.2.tgz#105b0f1934119dde543ac8eb71af3a91009efe54"
   integrity sha512-lmQ4L+J6mnu3xweP8+rOrUwzmN+MRAj7TgtJtDaXE5PMyX2kCrklhg3rvOsOIfNeAWMQWO2F1GPc1kMD2vLAfw==
+
+typescript@^3.6.3:
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.4.tgz#1743a5ec5fef6a1fa9f3e4708e33c81c73876c19"
+  integrity sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
 
 ua-parser-js@^0.7.18:
   version "0.7.20"
@@ -13889,15 +13894,15 @@ vue-jscodeshift-adapter@^2.0.2:
     vue-sfc-descriptor-to-string "^1.0.0"
     vue-template-compiler "^2.5.13"
 
-vue-language-server@^0.0.60:
-  version "0.0.60"
-  resolved "https://registry.yarnpkg.com/vue-language-server/-/vue-language-server-0.0.60.tgz#6e6d116e500038d3a32e1c4b8e2fc29c09eb4d86"
-  integrity sha512-Ywj+6kwTKtZtazQD0UvpMgfQZs+TH0/tft2RbCC9jHgkwU9w1h+ceoJ/V1FSQvyouI7+rhFEkfBH9FMH7+x2PQ==
+vue-language-server@^0.0.65:
+  version "0.0.65"
+  resolved "https://registry.yarnpkg.com/vue-language-server/-/vue-language-server-0.0.65.tgz#b287e0ea558fb88c308bde4abe982480008ca6bc"
+  integrity sha512-2yHZGU+KMv7xdEFhh88ZZBlj0i9wAByDxcd1orfNfrRLUDaabjyHNnkhvw4tdne9fOeAj6w43OKxo/YqMXQXiw==
   dependencies:
     "@starptech/prettyhtml" "^0.9.0"
     bootstrap-vue-helper-json "^1.1.1"
     buefy-helper-json "^1.0.2"
-    element-helper-json "^2.0.2"
+    element-helper-json "^2.0.6"
     eslint "^5.9.0"
     eslint-plugin-vue "^5.0.0"
     gridsome-helper-json "^1.0.3"
@@ -13912,7 +13917,7 @@ vue-language-server@^0.0.60:
     resolve "^1.8.1"
     stylus "^0.54.5"
     stylus-supremacy "^2.12.6"
-    typescript "^3.3.4000"
+    typescript "^3.6.3"
     vscode-css-languageservice "^4.0.2-next.3"
     vscode-emmet-helper "^1.1.19"
     vscode-languageserver "^5.3.0-next.4"
