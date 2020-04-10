@@ -6,7 +6,7 @@
   "author": "azawakh <azawakhh@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@nestjs/cli": "^6.13.1",
+    "@nestjs/cli": "^7.0.0",
     "@stoplight/prism-cli": "^3.2.3",
     "@storybook/cli": "^5.2.8",
     "@vue/cli": "^4.1.2",
