@@ -21,6 +21,6 @@
     "prettier": "^2.0.4",
     "tern": "^0.24.3",
     "twsh": "^1.0.2",
-    "vue-language-server": "^0.0.65"
+    "vue-language-server": "^0.0.67"
   }
 }
