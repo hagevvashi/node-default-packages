@@ -3720,10 +3720,15 @@ bytes@3.1.0:
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
   integrity sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
 
-cac@^6.3.8, cac@^6.5.7:
+cac@^6.3.8:
   version "6.5.9"
   resolved "https://registry.yarnpkg.com/cac/-/cac-6.5.9.tgz#c4fabd5e3b97e088be5df9ab588efe41067e54d8"
   integrity sha512-raPrIuUiiwuFjumuq8oFh2PNJ/ySE92n+umpIka7JS7fv0oioc7Fx+8Xp/muUr6uocngpaOvFY89idJ63pZtYw==
+
+cac@^6.5.10:
+  version "6.5.10"
+  resolved "https://registry.yarnpkg.com/cac/-/cac-6.5.10.tgz#be1d4509af1809dca601685145cd80ea85dabe0d"
+  integrity sha512-uxyxsID5p5kYlFFnhw86A4c8K5QTLRp6JM4AY2OtCq5lnnn4DGxV8YI1Z5rlt6KUjEKpA4qM+WZQshMoJY6dQQ==
 
 cacache@^11.3.3:
   version "11.3.3"
@@ -3955,6 +3960,14 @@ chalk@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"
   integrity sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
+  integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -4355,6 +4368,11 @@ cmd-shim@^3.0.0, cmd-shim@^3.0.3:
     graceful-fs "^4.1.2"
     mkdirp "~0.5.0"
 
+cna-template@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/cna-template/-/cna-template-3.0.0.tgz#4cf6ae6526d52319487301f7bad676ad3226286b"
+  integrity sha512-qiF2+EWi+RB+6hY5S/QSY5KMBqjzbbQMw9ozc4yDe7K3GPfsVHZijzJ3si8zZFu+LliABYRpxptj6CnLuLee1g==
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -4685,19 +4703,18 @@ create-hmac@^1.1.0, create-hmac@^1.1.4, create-hmac@^1.1.7:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-nuxt-app@^2.15.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/create-nuxt-app/-/create-nuxt-app-2.15.0.tgz#19f3129f5d7d47d48ea52ce63b72779348be0f80"
-  integrity sha512-cJBSifFL1sWUk0XyQQuB2G4aF7/+Nht/cSTPp2U31ip5Ui69Dpcn0idGHB1r8+z7ZFRnMmXIosTG08hwDr/5BQ==
+create-nuxt-app@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/create-nuxt-app/-/create-nuxt-app-3.0.0.tgz#b4a7e072dcfb95d8a50a928920790493e903149c"
+  integrity sha512-pSYdgcPJ/dbu1HHXAYIU4p5qJrqqytEedfsdX+tB2+rQzv9jWTsmkfcc4wy3eTRqRJ6A9NIdnQzSlfsKCmlHbg==
   dependencies:
-    cac "^6.5.7"
-    chalk "^2.4.2"
-    cross-spawn "^7.0.1"
-    envinfo "^7.5.0"
-    glob "^7.1.6"
+    cac "^6.5.10"
+    chalk "^4.1.0"
+    cna-template "^3.0.0"
+    cross-spawn "^7.0.3"
+    envinfo "^7.5.1"
     lodash "^4.17.15"
-    sao "^1.7.0"
-    superb "^4.0.0"
+    sao "^1.7.1"
     validate-npm-package-name "^3.0.0"
 
 create-react-app@^3.4.1:
@@ -4746,10 +4763,19 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2:
+cross-spawn@^7.0.0, cross-spawn@^7.0.2:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.2.tgz#d0d7dcfa74e89115c7619f4f721a94e1fdb716d6"
   integrity sha512-PD6G8QG3S4FK/XCGFbEQrDqO2AnMMsy0meR7lerlIOHAAbkuavGU/pOqprrlvfTNjvowivTeBsjebAL0NSoMxw==
+  dependencies:
+    path-key "^3.1.0"
+    shebang-command "^2.0.0"
+    which "^2.0.1"
+
+cross-spawn@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
+  integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
   dependencies:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
@@ -5456,7 +5482,7 @@ envinfo@7.5.0:
   resolved "https://registry.yarnpkg.com/envinfo/-/envinfo-7.5.0.tgz#91410bb6db262fb4f1409bd506e9ff57e91023f4"
   integrity sha512-jDgnJaF/Btomk+m3PZDTTCb5XIIIX3zYItnCRfF73zVgvinLoRomuhi75Y4su0PtQxWz4v66XnLLckyvyJTOIQ==
 
-envinfo@^7.5.0:
+envinfo@^7.5.0, envinfo@^7.5.1:
   version "7.5.1"
   resolved "https://registry.yarnpkg.com/envinfo/-/envinfo-7.5.1.tgz#93c26897225a00457c75e734d354ea9106a72236"
   integrity sha512-hQBkDf2iO4Nv0CNHpCuSBeaSrveU6nThVxFGTrq/eDlV716UQk09zChaJae4mZRsos1x4YLY2TaH3LHUae3ZmQ==
@@ -11968,7 +11994,7 @@ sanitize-html@1.20.1:
     srcset "^1.0.0"
     xtend "^4.0.1"
 
-sao@^1.7.0:
+sao@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/sao/-/sao-1.7.1.tgz#d45bb34c0d539e71b2e70a0f5999cf4953002dc4"
   integrity sha512-g4VGkyvpZ+n+k7Pp+Qc9Yoy2wGFi7FstLZoLxwiMhjn4n4gCStQJ873weCITAD1ocKbKL7HyKDNnC4yTqievsw==
@@ -12835,13 +12861,6 @@ subscriptions-transport-ws@^0.9.11, subscriptions-transport-ws@^0.9.16:
     symbol-observable "^1.0.4"
     ws "^5.2.0"
 
-superb@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/superb/-/superb-4.0.0.tgz#1d1ec7b29559e39bdf5d3f45f24dd3974762b903"
-  integrity sha512-4Kie62y4kBxNGXXWJAVR63sdQlswBZq2G/x1d37pRQbjqfhIH1WPhirZFHZUpI76uCDrFnxej0F3NtEy1/H+OQ==
-  dependencies:
-    unique-random-array "^2.0.0"
-
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
@@ -13555,18 +13574,6 @@ unique-filename@^1.1.1:
   integrity sha512-Vmp0jIp2ln35UTXuryvjzkjGdRyf9b2lTXuSYUiPmzRcl3FDtYqAwOnTJkAngD9SWhnoJzDbTKwaOrZ+STtxNQ==
   dependencies:
     unique-slug "^2.0.0"
-
-unique-random-array@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/unique-random-array/-/unique-random-array-2.0.0.tgz#9e639b1a9dc141e97350a6fc6f17da4b0717b1ad"
-  integrity sha512-xR87O95fZ7hljw84J8r1YDXrvffPLWN513BNOP4Bv0KcgG5dyEUrHwsvP7mVAOKg4Y80uqRbpUk0GKr8il70qg==
-  dependencies:
-    unique-random "^2.1.0"
-
-unique-random@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/unique-random/-/unique-random-2.1.0.tgz#7a8413da5176d028567168b57125ac5c0cec5c25"
-  integrity sha512-iQ1ZgWac3b8YxGThecQFRQiqgk6xFERRwHZIWeVVsqlbmgCRl0PY13R4mUkodNgctmg5b5odG1nyW/IbOxQTqg==
 
 unique-slug@^2.0.0:
   version "2.0.2"
